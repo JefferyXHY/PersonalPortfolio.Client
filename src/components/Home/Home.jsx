@@ -1,5 +1,5 @@
 import React, { PureComponent } from "react";
-import Button from '@material-ui/core/Button';
+import { Container } from "@material-ui/core";
 
 class Home extends PureComponent {
   constructor(props) {
@@ -40,10 +40,9 @@ class Home extends PureComponent {
     }
     return (
       <div className="HomeWrapper">
-        Test content
-        <Button variant="contained" color="primary">
-          Hello World
-        </Button>
+        <Container fixed>
+          <div>Hi, this is Hongyi Xie</div>
+        </Container>
       </div>
     );
   }
